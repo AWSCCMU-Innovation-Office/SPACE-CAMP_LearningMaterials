@@ -43,8 +43,10 @@
 ## Part 2: Status Codes
 
 1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 2 files by entering `git pull origin part2`.
-2. Run the code using `fastapi dev main.py` and observe the status code in Bruno.
-3. To modify the status code, go back to VS Code and use `Ctrl + C` to stop running the code. Change the content and save. Run the code again using `fastapi dev main.py`, switch back to Bruno, and resend the request. The status code should already be modified. You may use [this](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) as a reference for HTTP response status codes.
+2. Run the code using `fastapi dev main.py`.
+3. Save and send the Bruno request to check the output.
+4. Verify and screenshot if the API returned the status code correspondingly.
+5. To modify the status code, go back to VS Code and use `Ctrl + C` to stop running the code. Change the content and save. Run the code again using `fastapi dev main.py`, switch back to Bruno, and resend the request. The status code should already be modified. You may use [this](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) as a reference for HTTP response status codes.
 
 ## Part 3: Create a GET Endpoint for books
 
