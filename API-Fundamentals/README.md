@@ -28,7 +28,17 @@
 
 ## Part 1: Create a Simple GET Endpoint
 
-1. Clear the terminal using `clear` and enter the command `git pull origin part1` to pull the Part 1  Files.
+1. Clear the terminal using `clear` and enter the command `git pull origin part1` to pull the Part 1 Files.
+2. Run the code using `fastapi dev main.py`.
+3. Open Bruno and click `Create Collection`. Name it "API Fundamentals".
+4. Start a `New Request` under API Fundamentals. Name it "Test the Connection" and its method should be GET.
+5. Copy the base URL from the VS Code terminal then paste it in the Bruno Request. Make sure to put a forward slash at the end of the URL `https://127.0.0.1:8000/`.
+6. Save and send the Bruno request to check the output.
+
+![image](https://github.com/user-attachments/assets/0de7c11f-0774-47ad-a4f7-3dde1412d5f6)
+
+7. Verify and screenshot if the API returned a successful status (e.g. `200 OK`) and outputs correspondingly.
+8. To modify the output message, go back to VS Code and use `Ctrl + C` to stop running. Change the output message and save. Run the code again using `fastapi dev main.py`, switch back to Bruno, and send the request. The output message should already be modified.
 
 ## Part 2: Status Codes
 
