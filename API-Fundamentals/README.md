@@ -67,7 +67,7 @@
 
 1. Use `Ctrl + C` and enter the command `git stash`, to temporarily save changes made but not commit to the main branch. This also allows you to pull the following files.
 2. Pull the Part 5 files by entering `git pull origin part5`. Run the code by entering `fastapi dev main.py`.
-3. Create or clone a Bruno Request. Change its name to "Store a Book", then change its method to POST and endpoint to `/books` using the same base URL.
+3. Create or clone a Bruno Request. Change its name to "Store a Book", then change its method to `POST` and endpoint to `/books` using the same base URL.
 4. Go to `Body`, add a JSON Body, and enter a JSON formatted entry with title and author for the book you want to create. Save and send the request.
    
 ![part5](https://github.com/user-attachments/assets/c885ed17-c865-4f09-80c5-4f8b8bca5359)
@@ -78,7 +78,7 @@
 
 1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 6 files by entering `git pull origin part6`.
 2. Run the code by entering `fastapi dev main.py`.
-3. Create or clone a Bruno Request. Change its name to "Update a specific book", then change its method to PUT and endpoint to `/books/{book-id}` using the same base URL.
+3. Create or clone a Bruno Request. Change its name to "Update a specific book", then change its method to `PUT` and endpoint to `/books/{book-id}` using the same base URL.
 4. Go to `Body`, add a JSON Body, and enter a JSON formatted entry with title and author for the book you want to update.
 5. Change `{book-id}` endpoint to the book id you want to update. Save and send the request. Notice the output when you enter a valid and invalid output.
 
@@ -90,7 +90,7 @@
 
 1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 7 files by entering `git pull origin part7`.
 2. Run the code by entering `fastapi dev main.py`. 
-3. Create or clone a Bruno Request. Change its name to "Delete a specific book", then change its method to DELETE and endpoint to `/books/{book-id}`.
+3. Create or clone a Bruno Request. Change its name to "Delete a specific book", then change its method to `DELETE` and endpoint to `/books/{book-id}`.
 4. Go to `Body` and if there is a `JSON` body, change it to `No Body`.
 5. Change `{book-id}` endpoint to the book id you want to delete. Save and send the request.
 
