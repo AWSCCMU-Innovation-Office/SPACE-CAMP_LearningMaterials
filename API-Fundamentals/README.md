@@ -26,8 +26,21 @@
     - Make sure to surround `fastapi[standard]` with double quotation marks to ensure that it works on your terminal.
 8. Install Peewee module in Python using `pip install peewee`.
 
-## CK PART
-## END
+## Part 1: Create a Simple GET Endpoint
+
+1. Clear the terminal using `clear` and enter the command `git pull origin part1` to pull the Part 1  Files.
+
+## Part 2: Status Codes
+
+
+
+## Part 3: Create a GET Endpoint for books
+
+
+
+## Part 4: Path Parameters and Query Parameters
+
+
 
 ## Part 5: Create a POST Endpoint for books
 
