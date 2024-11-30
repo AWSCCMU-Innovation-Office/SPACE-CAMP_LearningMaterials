@@ -53,13 +53,11 @@
 1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 3 files by entering `git pull origin part3`.
 2. Run the code using `fastapi dev main.py`.
 3. In VS Code, open the Command Palette using `Ctrl + Shift + P`. Choose `SQLite: Open Database` and click on `database.db`. With this, you will be able to view the table through `SQLite Explorer` -> `database.db` -> `book`.
-4. Create another Bruno request. Name it "Get All Books" and its method should be `GET`.
-5. Use the endpoint `/books` in the same base URL.
-6. Save and send the request.
+4. Create another Bruno request. Name it "Get All Books" and its method should be `GET`. Use the endpoint `/books` in the same base URL, then save and send the request.
 
 ![image](https://github.com/user-attachments/assets/aebbf96a-e34e-41d6-8b2e-9f6d3564a9c4)
 
-7. Verify and screenshot if all the books are shown as the output in Bruno.
+5. Verify and screenshot if all the books are shown as the output in Bruno.
    
 ## Part 4: Path Parameters and Query Parameters
 
