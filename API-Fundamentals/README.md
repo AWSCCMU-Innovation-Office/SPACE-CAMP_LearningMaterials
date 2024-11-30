@@ -31,7 +31,7 @@
 1. Clear the terminal using `clear` and enter the command `git pull origin part1` to pull the Part 1 Files.
 2. Run the code using `fastapi dev main.py`.
 3. Open Bruno and click `Create Collection`. Name it "API Fundamentals".
-4. Start a `New Request` under API Fundamentals. Name it "Test the Connection" and its method should be `GET`.
+4. Start a `New Request` under API Fundamentals. Name it "Test Connection" and its method should be `GET`.
 5. Copy the base URL from the VS Code terminal then paste it in the Bruno Request. Make sure to put a forward slash at the end of the URL.
 6. Save and send the Bruno request to check the output.
 
