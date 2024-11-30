@@ -32,7 +32,7 @@
 2. Run the code using `fastapi dev main.py`.
 3. Open Bruno and click `Create Collection`. Name it "API Fundamentals".
 4. Start a `New Request` under API Fundamentals. Name it "Test the Connection" and its method should be `GET`.
-5. Copy the base URL from the VS Code terminal then paste it in the Bruno Request. Make sure to put a forward slash at the end of the URL `https://127.0.0.1:8000/`.
+5. Copy the base URL from the VS Code terminal then paste it in the Bruno Request. Make sure to put a forward slash at the end of the URL.
 6. Save and send the Bruno request to check the output.
 
 ![image](https://github.com/user-attachments/assets/576cb74f-98a7-4931-95cc-d643bfdc0a27)
@@ -54,7 +54,7 @@
 2. Run the code using `fastapi dev main.py`.
 3. In VS Code, open the Command Palette using `Ctrl + Shift + P`. Choose `SQLite: Open Database` and click on `database.db`. With this, you will be able to view the table through `SQLite Explorer` -> `database.db` -> `book`.
 4. Create another Bruno request. Name it "Get All Books" and its method should be `GET`.
-5. Use the endpoint `/books` in the same base URL. It should look like this -> `https://127.0.0.1:8000/books`.
+5. Use the endpoint `/books` in the same base URL.
 6. Save and send the request.
 
 ![image](https://github.com/user-attachments/assets/aebbf96a-e34e-41d6-8b2e-9f6d3564a9c4)
