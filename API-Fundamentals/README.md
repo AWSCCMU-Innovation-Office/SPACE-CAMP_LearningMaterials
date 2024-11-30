@@ -59,7 +59,7 @@
 
 5. Verify and screenshot if all the books are shown as the output in Bruno.
    
-## Part 4: Path Parameters and Query Parameters
+## Part 4-A: Path Parameters and Query Parameters
 
 1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 4 files by entering `git pull origin part4`.
 2. If email and name are required, use `git config --global user.email "you@example.com"` and `git config --global user.name "Your Name"`. Use this only if needed. Repeat Step 1.
@@ -77,6 +77,13 @@
 ![image](https://github.com/user-attachments/assets/673c98a0-9bf1-4083-b310-e2279045a8c1)
 
 7. Verify and screenshot the output of each `{book_id}` modification.
+
+## Part 4-B: Path Parameters and Query Parameters
+
+1. Create a Bruno request. Name it "Search Book" and its method should be `GET`. Use the endpoint `/books/search?author=George+Orwell` in the same base URL.
+2. Save and send the request then observe what happens to the output. It should return an error `422 Unprocessable Entity`.
+3. Go to VS Code and modify the code by moving up lines 28-31 right before line 21. Run or stop the code accordingly.
+4. Verify and screenshot the output of the Bruno request with the modified working code.
 
 ## Part 5: Create a POST Endpoint for books
 
