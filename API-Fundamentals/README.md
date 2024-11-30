@@ -42,7 +42,8 @@
 
 ## Part 2: Status Codes
 
-
+1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 2 files by entering `git pull origin part2`.
+2. 
 
 ## Part 3: Create a GET Endpoint for books
 
@@ -54,7 +55,7 @@
 
 ## Part 5: Create a POST Endpoint for books
 
-1. Enter the command `git stash` to temporarily save changes made but not commit to the main branch. This also allows you to pull the following files.
+1. Use `Ctrl + C` and enter the command `git stash`, to temporarily save changes made but not commit to the main branch. This also allows you to pull the following files.
 2. Pull the Part 5 files by entering `git pull origin part5`. Run the code by entering `fastapi dev main.py`.
 3. Create or clone a Bruno Request. Change its name to "Store a Book", then change its method to POST and endpoint to `/books` using the same base URL.
 4. Go to `Body`, add a JSON Body, and enter a JSON formatted entry with title and author for the book you want to create. Save and send the request.
@@ -65,7 +66,7 @@
 
 ## Part 6: Create a PUT Endpoint for books
 
-1. Enter the command `git stash` and then pull the Part 6 files by entering `git pull origin part6`.
+1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 6 files by entering `git pull origin part6`.
 2. Run the code by entering `fastapi dev main.py`.
 3. Create or clone a Bruno Request. Change its name to "Update a specific book", then change its method to PUT and endpoint to `/books/{book-id}` using the same base URL.
 4. Go to `Body`, add a JSON Body, and enter a JSON formatted entry with title and author for the book you want to update.
@@ -77,7 +78,7 @@
 
 ## Part 7: Create a DELETE endpoint for books
 
-1. Enter the command `git stash` and then pull the Part 7 files by entering `git pull origin part7`.
+1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 7 files by entering `git pull origin part7`.
 2. Run the code by entering `fastapi dev main.py`. 
 3. Create or clone a Bruno Request. Change its name to "Delete a specific book", then change its method to DELETE and endpoint to `/books/{book-id}`.
 4. Go to `Body` and if there is a `JSON` body, change it to `No Body`.
@@ -89,7 +90,7 @@
 
 ## Part 8: API Authentication
 
-1. Enter the command `git stash` and then pull the Part 8 files by entering `git pull origin part8`.
+1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 8 files by entering `git pull origin part8`.
 2. Add `print(f"Request: {request}")` after line 11 in `main.py`. Run the code by entering `fastapi dev main.py`.
 
 ![part8-1](https://github.com/user-attachments/assets/92c860e9-cb36-47a5-a6b6-74a2f15f7fbd)
