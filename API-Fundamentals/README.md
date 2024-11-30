@@ -82,7 +82,10 @@
 
 1. Create a Bruno request. Name it "Search Book" and its method should be `GET`. Use the endpoint `/books/search?author=George+Orwell` in the same base URL.
 2. Save and send the request then observe what happens to the output. It should return an error `422 Unprocessable Entity`.
-3. Go to VS Code and modify the code by moving up lines 28-31 right before line 21. Run or stop the code accordingly.
+3. Go back to VS Code and modify the code by moving up lines 28-31 right before line 21. Run or stop the code accordingly.
+
+![image](https://github.com/user-attachments/assets/f03bb01b-b5d8-449d-935f-81cb63971ddc)
+
 4. Verify and screenshot the output of the Bruno request with the modified working code.
 
 ## Part 5: Create a POST Endpoint for books
