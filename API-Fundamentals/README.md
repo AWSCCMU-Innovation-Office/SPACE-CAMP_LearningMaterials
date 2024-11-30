@@ -84,6 +84,7 @@
 2. Save and send the request then observe what happens to the output. It should return an error `422 Unprocessable Entity`.
 3. Go back to VS Code and modify the code by moving up lines 28-31 right before line 21. Run or stop the code accordingly.
 
+![image](https://github.com/user-attachments/assets/c42d5b3c-eda7-4d2c-ae7a-9d4e1783c060)
 ![image](https://github.com/user-attachments/assets/f03bb01b-b5d8-449d-935f-81cb63971ddc)
 
 4. Verify and screenshot the output of the Bruno request with the modified working code.
