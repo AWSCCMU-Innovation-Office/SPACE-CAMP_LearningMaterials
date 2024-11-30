@@ -150,4 +150,4 @@
 
 1. Compile all screenshot images in a drive folder.
 2. Name each screenshot to its corresponding part with your surname (e.g. `SURNAME_PART1` or `SURNAME_PART4B-a`).
-3. Submit the drive folder link [here](https://forms.gle/h5qkQow6M6sFXYnx5).
+3. Submit the drive folder link in the Google Forms provided or [here](https://forms.gle/h5qkQow6M6sFXYnx5).
