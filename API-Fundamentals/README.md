@@ -32,17 +32,17 @@
 2. Run the code using `fastapi dev main.py`.
 3. Open Bruno and click `Create Collection`. Name it "API Fundamentals".
 4. Start a `New Request` under API Fundamentals. Name it "Test Connection" and its method should be `GET`.
-5. Copy the base URL from the VS Code terminal then paste it in the Bruno Request. Make sure to put a forward slash at the end of the URL.
+5. Copy the base URL from the VS Code terminal (Seen in the yellow frame, from "Serving at:") then paste it in the Bruno Request. Make sure to put a forward slash at the end of the URL.
 6. Save and send the Bruno request to check the output.
 
 ![image](https://github.com/user-attachments/assets/576cb74f-98a7-4931-95cc-d643bfdc0a27)
 
 7. Verify and screenshot if the API returned a successful status (e.g. `200 OK`) and outputs correspondingly.
-8. To modify the output message, go back to VS Code and use `Ctrl + C` to stop running the code. Change the output message and save. Run the code again using `fastapi dev main.py`, switch back to Bruno, and resend the request. The output message should already be modified.
+8. To modify the output message, go back to VS Code and use `Ctrl + C` to stop running the API. Change the output message and save. Run the code again using `fastapi dev main.py`, switch back to Bruno, and resend the request. The output message should already be modified.
 
 ## Part 2: Status Codes
 
-1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 2 files by entering `git pull origin part2`.
+1. Use `Ctrl + C`, enter the command `git stash` to temporarily save changes made but not commit to the main branch. This also allows you to pull the following files. Then, pull the Part 2 files by entering `git pull origin part2`.
 2. Run the code using `fastapi dev main.py`.
 3. Save and send the Bruno request to check the output.
 4. Verify and screenshot if the API returned the status code correspondingly.
@@ -57,7 +57,7 @@
 
 ![image](https://github.com/user-attachments/assets/aebbf96a-e34e-41d6-8b2e-9f6d3564a9c4)
 
-5. Verify and screenshot if all the books are shown as the output in Bruno.
+5. Verify and screenshot if all the books in the SQLite explorer table are shown as the output in Bruno.
    
 ## Part 4-A: Path Parameters and Query Parameters
 
@@ -89,12 +89,12 @@
 
 ![image](https://github.com/user-attachments/assets/c42d5b3c-eda7-4d2c-ae7a-9d4e1783c060)
 
-4. Verify and screenshot the output of the Bruno request with the modified working code.
+4. Verify and screenshot the output of the Bruno request showing the `Params` tab with the modified working code.
 
 ## Part 5: Create a POST Endpoint for books
 
-1. Use `Ctrl + C` and enter the command `git stash`, to temporarily save changes made but not commit to the main branch. This also allows you to pull the following files.
-2. Pull the Part 5 files by entering `git pull origin part5`. Run the code by entering `fastapi dev main.py`.
+1. Use `Ctrl + C` and enter the command `git stash`. Pull the Part 5 files by entering `git pull origin part5`.
+2. Run the code by entering `fastapi dev main.py`.
 3. Create or clone a Bruno Request. Change its name to "Store a Book", then change its method to `POST` and endpoint to `/books` using the same base URL.
 4. Go to `Body`, add a JSON Body, and enter a JSON formatted entry with title and author for the book you want to create. Save and send the request.
    
@@ -140,14 +140,14 @@
 ![part8-3](https://github.com/user-attachments/assets/7aa78dee-cc4e-4383-99bf-10fc1810d5ad)
 
 5. Copy `API_KEY` from `main.py` in VS code to the Token entry in Bruno and save.
-6. Change Auth of each request from `No Auth` to `Inherit`.
+6. Change the `Auth` of the request from `No Auth` to `Inherit`.
 
 ![part8-4](https://github.com/user-attachments/assets/5724c5fe-1566-42aa-8fea-d8f56e6efee8)
 
-7. Send the request and take a screenshot if the API returned a successful status (e.g. `202 Accepted`) and outputs correspondingly.
+7. Send the request and take a screenshot if the API returned a successful status (e.g. `202 Accepted`) with the `Auth` tab shown and outputs correspondingly.
 
 ## Submission of Proofs
 
 1. Compile all screenshot images in a drive folder.
-2. Name each screenshot to its corresponding part with your surname (e.g. `SURNAME_PART1` or `SURNAME_PART1-a`).
-3. Submit the drive folder link [here](https://forms.gle/fXqrcbWTwW5oraxYA).
+2. Name each screenshot to its corresponding part with your surname (e.g. `SURNAME_PART1` or `SURNAME_PART4B-a`).
+3. Submit the drive folder link [here](https://forms.gle/h5qkQow6M6sFXYnx5).
