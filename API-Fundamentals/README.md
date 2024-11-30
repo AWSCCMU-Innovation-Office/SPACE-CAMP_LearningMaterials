@@ -52,7 +52,7 @@
 
 1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 3 files by entering `git pull origin part3`.
 2. Run the code using `fastapi dev main.py`.
-3. 
+3. In VS Code, open the Command Palette using `Ctrl + Shift + P`, choose `SQLite: Open Database`, and click `database.db`. With this, you will be able to view the table through `SQLite Explorer` -> `database.db` -> `book`.
 
 ## Part 4: Path Parameters and Query Parameters
 
