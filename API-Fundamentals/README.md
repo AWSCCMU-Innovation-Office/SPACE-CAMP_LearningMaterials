@@ -50,7 +50,9 @@
 
 ## Part 3: Create a GET Endpoint for books
 
-
+1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 3 files by entering `git pull origin part3`.
+2. Run the code using `fastapi dev main.py`.
+3. 
 
 ## Part 4: Path Parameters and Query Parameters
 
