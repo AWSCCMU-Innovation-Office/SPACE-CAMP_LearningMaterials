@@ -61,7 +61,22 @@
    
 ## Part 4: Path Parameters and Query Parameters
 
+1. Use `Ctrl + C`, enter the command `git stash`, and then pull the Part 4 files by entering `git pull origin part4`.
+2. If email and name are required, use `git config --global user.email "you@example.com"` and `git config --global user.name "Your Name"`. Use this only if needed. Repeat Step 1.
+3. Create a Bruno request. Name it "Get Specific Book" and its method should be `GET`. Use the endpoint `/books/{book_id}` in the same base URL.
+4. Modify `{book_id}` into `2`. Save and send the request. Observe the output.
 
+![image](https://github.com/user-attachments/assets/c28753f5-9f84-49f2-b8b0-e0e77fa46ff4)
+
+5. Modify `{book_id}` into `AWSCC`. Save and send the request. Observe the output.
+
+![image](https://github.com/user-attachments/assets/a4375ef4-ecd2-4362-8cdd-5c6c71aaf47b)
+
+6. Modify `{book_id}` into `40`. Save and send the request. Observe the output.
+
+![image](https://github.com/user-attachments/assets/673c98a0-9bf1-4083-b310-e2279045a8c1)
+
+7. Verify and screenshot the output of each `{book_id}` modification.
 
 ## Part 5: Create a POST Endpoint for books
 
