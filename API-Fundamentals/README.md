@@ -13,6 +13,8 @@
     - [Insomnia](https://insomnia.rest)
 5. Install [Git Bash](https://git-scm.com/downloads).
 
+### NOTE: For a detailed discussion of this activity, view the Facebook Live Replay from the link in the Google Forms.
+
 ## Setup working environment
 - All sections assume that you are using the preferred software (Visual Studio Code and Bruno).
 1. Open Git Bash and select (`cd {folder-name/directory-address}`) or create (`mkdir {folder-name}`) a folder you want to work this project on.
