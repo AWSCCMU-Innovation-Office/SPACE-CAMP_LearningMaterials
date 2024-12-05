@@ -13,7 +13,7 @@
     - [Insomnia](https://insomnia.rest)
 5. Install [Git Bash](https://git-scm.com/downloads).
 
-### NOTE: For a detailed discussion of this activity, view the Facebook Live Replay from the link in the Google Forms.
+### NOTE: For a detailed discussion of this activity, view the Facebook Live Replay from the link in the Google Forms or click [here](https://www.facebook.com/awsccmumanila/videos/583532154074401).
 
 ## Setup working environment
 - All sections assume that you are using the preferred software (Visual Studio Code and Bruno).
