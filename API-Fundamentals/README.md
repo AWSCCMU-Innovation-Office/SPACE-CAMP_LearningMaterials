@@ -17,7 +17,7 @@
 
 ## Setup working environment
 - All sections assume that you are using the preferred software (Visual Studio Code and Bruno).
-1. Open Git Bash and select (`cd {folder-name/directory-address}`) or create (`mkdir {folder-name}`) a folder you want to work this project on.
+1. Open Git Bash and select (`cd {folder-name/directory-address}`) or create (`mkdir {folder-name}`) a folder you want to work this project on. Make sure you are in your desired working directory.
 2. Clone the `API-Fundamentals` GitHub repository to the current folder by entering `git clone https://github.com/MachiBytes/API-Fundamentals.git`.
 3. Open VS Code with the cloned repository by entering `code API-Fundamentals/` and install the "SQLite Explorer" extension.
 4. Open a new terminal in VS Code by navigating to `Terminal` and select your preferred type (Powershell or Git Bash). 
